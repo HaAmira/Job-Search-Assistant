@@ -1,0 +1,15 @@
+{
+  "name": "hidani-tech-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend test",
+    "scrape": "npm --prefix backend run scrape",
+    "validate:jobs": "npm --prefix backend run validate:jobs"
+  }
+}
+
